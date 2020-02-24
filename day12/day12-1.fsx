@@ -1,5 +1,3 @@
-open System.IO
-
 let add v1 v2 = List.zip v1 v2 |> List.map (fun (a, b) -> a + b)
 
 type Moon =
